@@ -8,7 +8,13 @@ class ships{
 
 hit(index){
     this.shipHits.push(index);
-}};
+}
+sank(){
+    if(this.shipLength = this.shipHits){
+        alert(this.shipName+'has sank');
+    }
+}
+};
 
 
 const carrier = new ships("Carrier",5);
