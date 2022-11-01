@@ -1,3 +1,11 @@
+//create ships,hit,and sank function
+
+function sum(a, b) {
+    return a + b;
+  } 
+  module.exports = sum;
+
+
 class ships{
     constructor(shipName,shipLength){
     this.shipName = shipName;
@@ -15,7 +23,7 @@ sank(){
     }
 }
 };
-
+//create all ship values
 
 const carrier = new ships("Carrier",5);
 const battleShip = new ships("Battleship",4);
